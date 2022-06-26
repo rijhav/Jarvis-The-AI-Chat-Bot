@@ -1,0 +1,136 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Good evening" ,"Is anyone there?","Jarvis", "Hello", "Good day","Thank you", "hello javis", "hello javis","hi javis", "hi javis","hi javis","hi javis","good day javis"],
+         "responses": ["Hello!, how can I help?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Javis.", "I'm Javis!", "I'm Javis aka JAI."],
+         "context_set": ""
+        },
+		{"tag": "food",
+         "patterns": ["what food do you have on special?", "what is on special", "what do you have on special?"],
+         "responses": ["This is what we have on special :) "],
+         "context_set": ""
+		},
+		{
+			"tag": "menu",
+			"patterns": ["Can you please show me the menu card?", "what is on the menu", "can i please see the menu?"],
+			"responses": [" are you veg or non-veg?"],
+			"context_set": ""
+		},
+		{
+			"tag": "preferanceVeg",
+			"patterns": ["Veg", "veg please","veg pls", "veg thank you", "veg thanks", "I would like the veg please", "what veg do you have", "what is the veg menu"],
+			"responses": [""]
+		},
+		{
+			"tag": "preferanceNonVeg",
+			"patterns": ["Non-Veg", "Non veg please","Nonveg pls", "Nonveg thank you", "Nonveg thanks", "I would like the Nonveg please", "Non","nonveg","no veg","what is the nonveg menu","what is the non veg menu","what is the non-veg menu"],
+			"responses": [""]
+		},
+		{
+			"tag":	"Entire_Menu",
+			"patterns":["Show the entire menu", "Please show the entire menu","what is on the entire menu?"],
+			"responses": ["This is the entire menu..."]
+		},
+		{
+			"tag" : "Option1",
+			"patterns" : ["chicken burger"],
+			"responses" : ["20"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option2",
+			"patterns" : ["Veg burger"],
+			"responses" : ["15"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option3",
+			"patterns" : ["Veg Burger with larger chips", "Veg Burger and larger chips"],
+			"responses" : ["25"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option3",
+			"patterns" : ["Veg Burger with larger chips", "Veg Burger and larger chips"],
+			"responses" : ["25"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option4",
+			"patterns" : ["Veg Breyani"],
+			"responses" : ["20"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option5",
+			"patterns" : ["Chips medium"],
+			"responses" : ["15"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option6",
+			"patterns" : ["Chips large"],
+			"responses" : ["25"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option7",
+			"patterns" : ["Beans and puri"],
+			"responses" : ["20"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option7",
+			"patterns" : ["2 Dozen roti"],
+			"responses" : ["50"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option7",
+			"patterns" : ["2 Dozen roti"],
+			"responses" : ["50"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option8",
+			"patterns" : ["Mutton burgers"],
+			"responses" : ["30"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option9",
+			"patterns" : ["Mutton burger + medium Chips R40", "Mutton burger with medium Chips R40", "Mutton burger and medium Chips R40"],
+			"responses" : ["40"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option10",
+			"patterns" : ["Chicken and mayo toasted sandwhich"],
+			"responses" : ["15"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option11",
+			"patterns" : ["Mutton pasta large"],
+			"responses" : ["25"],
+			"context_set": ""
+		},
+		{
+			"tag" : "Option12",
+			"patterns" : ["Chicken Tikka pizza"],
+			"responses" : ["30"],
+			"context_set": ""
+		}
+		
+		
+   ]
+}
